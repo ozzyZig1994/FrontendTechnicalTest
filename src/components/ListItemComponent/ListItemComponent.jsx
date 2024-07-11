@@ -2,18 +2,14 @@ import React from 'react';
 import './ListItemComponent.css';
 
 export const ListItemComponent = ({ matches, displayRepos = false }) => {
-    const handleOnClick = () => {
-        console.log('Clicked!!')
-    }
-
     return (
         <div className='content'>
             { !displayRepos ? (
                 matches.map(item => (
-                    <div onClick={ handleOnClick } className='list-item' key={ item.id }>
+                    <div className='list-item' key={ item.id }>
                         <img className='avatar' src={item.avatar_url} alt="avatar"/>
                         <span>{ item.login }</span>
-                        <span>+</span>
+                        <img src='../../assets/react.svg' alt='icon' />
                     </div>
                 ))
             ) : (
