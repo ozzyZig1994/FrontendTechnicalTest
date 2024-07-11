@@ -1,0 +1,26 @@
+.avatar {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-item {
+    align-items: center;
+    border: 1px, solid, white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    padding: 5%;
+    width: 220px;
+}
+
+span {
+    text-align: center;
+}
