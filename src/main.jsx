@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { GithubUsersScreen, GithubRepositoriesScreen } from './pages';
+import { GithubUsersScreen, GithubRepositoriesScreen, MainScreen } from './pages';
+import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <GithubUsersScreen /> */}
-    <GithubRepositoriesScreen />
+   <BrowserRouter>
+    <MainScreen />
+   </BrowserRouter>
   </React.StrictMode>,
 )
