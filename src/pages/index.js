@@ -1,3 +1,3 @@
 export * from './GithubUsersScreen/GithubUsersScreen';
-export * from './GithubrepositoriesScreen/GithubRepositoriesScreen';
+export * from './GithubRepositoriesScreen/GithubRepositoriesScreen';
 export * from './MainScreen/MainScreen';

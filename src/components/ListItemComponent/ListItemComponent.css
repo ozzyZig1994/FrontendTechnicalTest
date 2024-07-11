@@ -23,6 +23,25 @@
     width: 100%;
 }
 
+.repo-card {
+    border: 1px, solid, cornflowerblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+}
+
+.details {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
 span {
     text-align: center;
 }

@@ -9,7 +9,7 @@ export const GithubUsersScreen = () => {
   return (
     <>
       <NavbarComponent />
-      <div className='container-fluid'>
+      <div className='container-fluid mt-5'>
         <h1 className='title'>Search for Github Users</h1>
         <hr />
         <SearchBoxComponent list={gitHubUserList} search={search} setSearch={setSearch} />

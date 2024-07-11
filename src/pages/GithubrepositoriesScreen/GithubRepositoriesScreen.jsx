@@ -8,10 +8,10 @@ export const GithubRepositoriesScreen = () => {
   return (
     <>
       <NavbarComponent />
-      <div className='container-fluid'>
+      <div className='container-fluid mt-5'>
         <h1 className='title'>Search for Github Repositories</h1>
         <hr />
-        <SearchBoxComponent list={gitHubRepositoriesList} search={search} setSearch={setSearch} />
+        <SearchBoxComponent list={gitHubRepositoriesList} search={search} setSearch={setSearch} repoSearch={true} />
       </div>
     </>
   )
