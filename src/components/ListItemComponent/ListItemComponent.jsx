@@ -7,7 +7,7 @@ export const ListItemComponent = ({ matches }) => {
     }
 
     return (
-        <ul className='container'>
+        <div className='content'>
             { matches.map(item => (
                 <div onClick={ handleOnClick } className='list-item' key={ item.id }>
                     <img className='avatar' src={item.avatar_url} alt="avatar"/>
@@ -15,6 +15,6 @@ export const ListItemComponent = ({ matches }) => {
                     <span>+</span>
                 </div>
             ))}
-        </ul>
+        </div>
     )
 }

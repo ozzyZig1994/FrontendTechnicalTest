@@ -3,11 +3,13 @@
     border-radius: 50%;
 }
 
-.container {
+.content {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 5%;
+    width: 100%;
 }
 
 .list-item {
@@ -16,9 +18,9 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
-    padding: 5%;
-    width: 220px;
+    margin-top: 2%;
+    padding: 2%;
+    width: 100%;
 }
 
 span {
