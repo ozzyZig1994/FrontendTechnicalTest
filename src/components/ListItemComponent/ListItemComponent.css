@@ -12,11 +12,11 @@
 
 .list-item {
     align-items: center;
-    border: 1px, solid, white;
+    border: 1px, solid, cornflowerblue;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5%;
+    margin-top: 5%;
     padding: 5%;
     width: 220px;
 }
